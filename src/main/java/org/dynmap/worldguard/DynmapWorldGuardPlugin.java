@@ -136,6 +136,7 @@ public class DynmapWorldGuardPlugin extends JavaPlugin {
             OfflinePlayer p = Bukkit.getOfflinePlayer(java.util.UUID.fromString(uuid));
             v = v.replace(toReplace, p.getName());
         }
+        v = v.replace("Castle_", "");
 
         if (region.getParent() != null) {
             v = v.replace("%parent%", region.getParent().getId());
