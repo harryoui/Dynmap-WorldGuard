@@ -278,7 +278,7 @@ public class DynmapWorldGuardPlugin extends JavaPlugin {
         int colours[] = {0xFF0000, 0xFFA500, 0xFFFF00, 0x7FFF00, 0x008000, 0x00FF7F, 0x00FFFF, 0x007FFF, 0x0000FF, 0x80080, 0xFF00FF, 0xB3446C};
         //red, orange, yellow, chartreuse green, green, spring green, cyan, azure, blue, violet, magenta, rose
 
-        int randomIndex = new Random().nextInt((12 - 0) + 1) + 0;
+        int randomIndex = new Random().nextInt((11 - 0) + 1) + 0;
 
         return colours[randomIndex];
     }
